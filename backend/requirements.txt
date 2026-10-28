@@ -1,0 +1,21 @@
+# Core engine (installed and tested in the build sandbox: pandas 3.0.2, numpy 2.4.4, scipy 1.17.1, scikit-learn 1.8.0,
+# openpyxl 3.1.5, Pillow 12.1.1, opencv-python-headless 4.13.0, reportlab 4.4.10)
+pandas>=2.2,<4
+numpy>=1.26,<3
+scipy>=1.11
+scikit-learn>=1.4
+openpyxl>=3.1
+Pillow>=10
+opencv-python-headless>=4.9
+reportlab>=4.0
+# Web layer (NOT yet implemented/tested - see README status)
+fastapi>=0.110
+uvicorn[standard]>=0.29
+python-multipart>=0.0.9
+pydantic>=2.6
+sqlalchemy>=2.0
+alembic>=1.13
+psycopg2-binary>=2.9
+# Optional
+imbalanced-learn>=0.12
+librosa>=0.10
